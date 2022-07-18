@@ -12,7 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;0,800;1,500&display=swap"
         rel="stylesheet">
-        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
+        <link rel="shortcut icon" href="{{ asset('favicon.png') }}">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
     <nav class="shadow-xl bg-white">
         <div
             class="container w-11/12 md:w-10/12 px-2 flex justify-between items-center text-color1 font-bold mx-auto py-3 my-2 mt-0">
-            <span><a href="/">HARAPAN TEKNIK</a></span>
+            <span><a href="/"><img style="height: 50px" src="{{ asset('logo.png') }}" alt=""></a></span>
             <div class="hidden md:flex gap-3 font-normal items-center">
                 <a href="/" class="@if ($title == 'Home') nav-active @endIf">Beranda</a>
                 <a href="/produk" class="@if ($title == 'Produk') nav-active @endIf">Produk</a>

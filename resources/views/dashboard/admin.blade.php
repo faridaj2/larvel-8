@@ -10,6 +10,7 @@
     <title>Admin Page</title>
     <meta name="description" content="description here">
     <meta name="keywords" content="keywords,here">
+    <link rel="shortcut icon" href="{{ asset('favicon.png') }}">
 
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,800" rel="stylesheet">
 
